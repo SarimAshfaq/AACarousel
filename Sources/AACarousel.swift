@@ -106,7 +106,7 @@ public class AACarousel: UIView,UIScrollViewDelegate {
         
         layerView = UIView()
         layerView.backgroundColor = UIColor.black
-        layerView.alpha = 0.6
+        //layerView.alpha = 0.6
         scrollView.addSubview(layerView)
     }
     
@@ -212,8 +212,8 @@ public class AACarousel: UIView,UIScrollViewDelegate {
             break
         case .halfFull:
             handleHalfFullImageViewFrame(false)
-            beforeImageView.alpha = 0.6
-            afterImageView.alpha = 0.6
+            //beforeImageView.alpha = 0.6
+            //afterImageView.alpha = 0.6
             break
         }
     }
